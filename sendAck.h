@@ -4,8 +4,10 @@
 // pan coordinator id
 #define PAN_COORD 1
 
-// maximum number of nodes connected to the pan coordinator
+// maximum number of nodes connected to the pan coordinator + pan coordinator
 #define MAX_NODES 8
+#define DELTA 2
+#define ID_AND_TOPICS 4
 
 // message type
 #define CONNECT 1
@@ -13,15 +15,15 @@
 #define PUBLISH 3
 
 // node status
-#define DISCONNECTED 1
-#define CONNECTED 2
-#define SUBSCRIBED 3
-#define PUBLISHING 4
+#define DISCONNECTED 0
+#define CONNECTED 1
+#define SUBSCRIBED 2
+#define PUBLISHING 3
 
 // topic
-#define TEMPERATURE 1
-#define HUMIDITY 2
-#define LUMINOSITY 3
+#define TEMPERATURE 0
+#define HUMIDITY 1
+#define LUMINOSITY 2
 
 typedef nx_struct conn_msg{
 	nx_uint8_t msg_type;
