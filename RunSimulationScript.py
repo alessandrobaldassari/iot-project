@@ -11,7 +11,7 @@ from TOSSIM import *;
 
 t = Tossim([]);
 
-num_devices=9;
+num_devices=4;
 
 
 topofile="topology.txt";
@@ -65,7 +65,7 @@ t.addChannel("role",out);
 for i in range(1,num_devices+1):
 	print "Creating node 1...";
 	node1 =t.getNode(i);
-	time1 = (i-1)*t.ticksPerSecond();
+	time1 = i*5*t.ticksPerSecond();
 	node1.bootAtTime(time1);
 	print ">>>Will boot at time",  time1/t.ticksPerSecond(), "[sec]";
 

@@ -1,18 +1,24 @@
 #ifndef SENDACK_H
 #define SENDACK_H
 
-// pan coordinator id
+// pan coordinator ID
 #define PAN_COORD 1
 
-// maximum number of nodes connected to the pan coordinator + pan coordinator
+// pan coordinator support constants
 #define MAX_NODES 8
-#define DELTA 2
-#define ID_AND_TOPICS 4
+#define MAX_TOPICS 3
+#define ID_TOPICS_QOS 7
+#define OFFSET 3
+#define ID 0
 
 // message type
 #define CONNECT 1
 #define SUBSCRIBE 2
 #define PUBLISH 3
+
+// QoS
+#define QOS 1
+#define NO_QOS 0
 
 // node status
 #define DISCONNECTED 0
@@ -21,9 +27,9 @@
 #define PUBLISHING 3
 
 // topic
-#define TEMPERATURE 0
-#define HUMIDITY 1
-#define LUMINOSITY 2
+#define TEMPERATURE 1
+#define HUMIDITY 2
+#define LUMINOSITY 3
 
 typedef nx_struct conn_msg{
 	nx_uint8_t msg_type;
@@ -39,6 +45,16 @@ typedef nx_struct sub_msg{
     nx_uint8_t lum, lum_qos;
 } sub_msg_t;
 
-enum{ AM_MY_MSG = 6 };
+typedef nx_struct pub_msg{
+	nx_uint8_t msg_type;
+	nx_uint16_t msg_id;
+    nx_uint8_t topic;
+    nx_uint16_t value;
+    nx_uint8_t qos;
+} pub_msg_t;
+
+enum{ 
+    AM_MY_MSG = 6 
+};
 
 #endif

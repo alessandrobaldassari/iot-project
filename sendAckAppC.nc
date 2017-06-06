@@ -8,7 +8,9 @@ implementation {
   components new AMSenderC(AM_MY_MSG);
   components new AMReceiverC(AM_MY_MSG);
   components ActiveMessageC;
-  components new TimerMilliC();
+  components new TimerMilliC() as NodeTimerC;
+  components new TimerMilliC() as PanCoordinatorTimerC;
+  
 
   //Boot interface
   App.Boot -> MainC.Boot;
@@ -26,7 +28,8 @@ implementation {
   App.PacketAcknowledgements->ActiveMessageC;
 
   //Timer interface
-  App.MilliTimer -> TimerMilliC;
+  App.NodeTimer -> NodeTimerC;
+  App.PanCoordinatorTimer -> PanCoordinatorTimerC;
 
 }
 
