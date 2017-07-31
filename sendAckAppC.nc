@@ -10,6 +10,7 @@ implementation {
   components ActiveMessageC;
   components new TimerMilliC() as NodeTimerC;
   components new TimerMilliC() as PanCoordinatorTimerC;
+  components RandomC;
   
 
   //Boot interface
@@ -30,6 +31,11 @@ implementation {
   //Timer interface
   App.NodeTimer -> NodeTimerC;
   App.PanCoordinatorTimer -> PanCoordinatorTimerC;
+  
+  //Fake sensor
+  RandomC <- MainC.SoftwareInit;
+  App.FakeSensor -> RandomC;
+  
 
 }
 

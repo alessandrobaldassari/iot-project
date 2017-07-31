@@ -12,6 +12,7 @@ module sendAckC{
 		interface Receive;
         interface Timer<TMilli> as NodeTimer;
         interface Timer<TMilli> as PanCoordinatorTimer;
+        interface Random as FakeSensor;
 	}
 } 
 implementation{
@@ -67,12 +68,23 @@ implementation{
 		mess->msg_type = SUBSCRIBE;
 		mess->msg_id = msg_counter++;
         mess->dev_id = TOS_NODE_ID;
-        mess->temp = 1;
-        mess->temp_qos = 1;
-        mess->hum = 0;
-        mess->hum_qos = 0;
-        mess->lum = 0;
-        mess->lum_qos = 0;
+        //Subscription initialization based on node ID
+        if(TOS_NODE_ID == 3 || TOS_NODE_ID == 6 || TOS_NODE_ID == 9){
+            mess->temp = 1;
+            mess->temp_qos = 1;
+            mess->hum = 0;
+            mess->hum_qos = 0;
+            mess->lum = 1;
+            mess->lum_qos = 0;
+        }
+        else{
+            mess->temp = 0;
+            mess->temp_qos = 0;
+            mess->hum = 1;
+            mess->hum_qos = 1;
+            mess->lum = 0;
+            mess->lum_qos = 0;
+        }
 	
 		dbg("radio_send", "Try to send a SUBSCRIBE request to PAN COORDINATOR at time %s \n", sim_time_string());
 	
@@ -104,9 +116,15 @@ implementation{
 		pub_msg_t* mess=(pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));
 		mess->msg_type = PUBLISH;
 		mess->msg_id = msg_counter++;
-        mess->topic = TEMPERATURE;
-        mess->value = 25;
-        mess->qos = NO_QOS;
+        mess->topic = call FakeSensor.rand16() % 3 + 1;
+        mess->value = call FakeSensor.rand16();
+        //Publish QoS initialization based on node ID
+        if(TOS_NODE_ID == 3 || TOS_NODE_ID == 6 || TOS_NODE_ID == 9){
+            mess->qos = 0;
+        }
+        else{
+            mess->qos = 1;
+        }
         dbg("radio_send", "Try to send a PUBLISH message to PAN COORDINATOR at time %s \n", sim_time_string());
 	
 		if(mess->qos == QOS){
@@ -211,7 +229,7 @@ implementation{
 			}
 			else if (TOS_NODE_ID != PAN_COORD){
                 node_status = DISCONNECTED;
-                call NodeTimer.startPeriodic(60000);
+                call NodeTimer.startPeriodic(15234);
                 
                 dbg("role","I'm node %hhu: start sending periodical CONNECT request\n", TOS_NODE_ID);
 				dbg("role","Node status: %hhu (DISCONNECTED)\n", node_status);
