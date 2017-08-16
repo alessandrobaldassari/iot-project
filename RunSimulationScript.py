@@ -11,7 +11,7 @@ from TOSSIM import *;
 
 t = Tossim([]);
 
-num_devices=4;
+num_devices=9;
 
 
 topofile="topology.txt";
@@ -63,9 +63,9 @@ print "Activate debug message on channel role"
 t.addChannel("role",out);
 
 for i in range(1,num_devices+1):
-	print "Creating node 1...";
+	print "Creating node " + str(i);
 	node1 =t.getNode(i);
-	time1 = i*5*t.ticksPerSecond();
+	time1 = (i-1)*8*t.ticksPerSecond();
 	node1.bootAtTime(time1);
 	print ">>>Will boot at time",  time1/t.ticksPerSecond(), "[sec]";
 
@@ -108,7 +108,7 @@ for i in range(1, num_devices + 1):
 
 print "Start simulation with TOSSIM! \n\n\n";
 
-for i in range(0,15000):
+for i in range(0,100000):
 	t.runNextEvent()
 	
 print "\n\n\nSimulation finished!";

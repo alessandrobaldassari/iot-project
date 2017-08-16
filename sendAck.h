@@ -24,12 +24,15 @@
 #define DISCONNECTED 0
 #define CONNECTED 1
 #define SUBSCRIBED 2
-#define PUBLISHING 3
 
 // topic
 #define TEMPERATURE 1
 #define HUMIDITY 2
 #define LUMINOSITY 3
+
+//timer
+#define NODE_TIMER 90000
+#define PAN_TIMER 450
 
 typedef nx_struct conn_msg{
 	nx_uint8_t msg_type;
@@ -53,8 +56,8 @@ typedef nx_struct pub_msg{
     nx_uint8_t qos;
 } pub_msg_t;
 
-enum{ 
-    AM_MY_MSG = 6 
+enum{
+    AM_MY_MSG = 6
 };
 
 #endif
