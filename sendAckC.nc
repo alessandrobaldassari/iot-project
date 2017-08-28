@@ -368,17 +368,19 @@ implementation{
 				default:
 					dbg("radio_rec","Unknown message type: %hhu \n", conn_mess->msg_type);
 			}
-            if(TOS_NODE_ID != PAN_COORD){
-                dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", pub_mess->msg_type);
-                    dbg_clear("radio_pack", "\t\t msg_id: %hhu \n", pub_mess->msg_id);
-                    dbg_clear("radio_pack", "\t\t topic: %hhu \n", pub_mess->topic);
-                    dbg_clear("radio_pack", "\t\t value: %hhu \n ", pub_mess->value);
-                    dbg_clear("radio_pack", "\t\t QoS: %hhu \n ", pub_mess->qos);
+        }
+        else{
+            dbg_clear("radio_pack","\t\t Test \n");
+            dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", pub_mess->msg_type);
+            dbg_clear("radio_pack", "\t\t msg_id: %hhu \n", pub_mess->msg_id);
+            dbg_clear("radio_pack", "\t\t topic: %hhu \n", pub_mess->topic);
+            dbg_clear("radio_pack", "\t\t value: %hhu \n ", pub_mess->value);
+            dbg_clear("radio_pack", "\t\t QoS: %hhu \n ", pub_mess->qos);
+        }
+            
+        dbg_clear("radio_rec", "\n ");
+        dbg_clear("radio_pack","\n");
 
-            }
-            dbg_clear("radio_rec", "\n ");
-            dbg_clear("radio_pack","\n");
-		}
 		return buf;
 	}
 }
