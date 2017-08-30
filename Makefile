@@ -1,3 +1,3 @@
-COMPONENT=sendAckAppC
+COMPONENT=pubSubProtocolAppC
 include $(MAKERULES)
 

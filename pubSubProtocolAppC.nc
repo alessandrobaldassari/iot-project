@@ -1,4 +1,4 @@
-#include "sendAck.h"
+#include "pubSubProtocol.h"
 
 configuration sendAckAppC {}
 
