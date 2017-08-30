@@ -1,10 +1,10 @@
 #include "pubSubProtocol.h"
 
-configuration sendAckAppC {}
+configuration pubSubProtocolAppC {}
 
 implementation {
 
-  components MainC, sendAckC as App;
+  components MainC, pubSubProtocolC as App;
   components new AMSenderC(AM_MY_MSG);
   components new AMReceiverC(AM_MY_MSG);
   components ActiveMessageC;
