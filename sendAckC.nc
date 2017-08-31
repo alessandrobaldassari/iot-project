@@ -25,13 +25,15 @@ implementation{
     // pan coordinator variables
     uint8_t sub_counter = 0;
     uint8_t sub_table[MAX_NODES][ID_TOPICS_QOS];
-    uint8_t i = 0,j;
+    uint8_t i = 0,j, resend;
     uint8_t locked = 0;
+    uint8_t qos;
     uint8_t topic, source;
-    uint16_t value;
+    uint16_t value, msg_id;
 
     // node variables
 	uint8_t node_status;
+    uint8_t node_topic;
 
     // tasks
 	task void sendConnectionRequest();
@@ -44,7 +46,10 @@ implementation{
 		conn_msg_t* mess=(conn_msg_t*)(call Packet.getPayload(&packet,sizeof(conn_msg_t)));
 		mess->msg_type = CONNECT;
 		mess->msg_id = msg_counter++;
-
+        
+        //qos management info
+        qos = QOS;
+        
 		dbg("radio_send", "Try to send a CONNECT request to PAN COORDINATOR at time %s \n", sim_time_string());
 
 		call PacketAcknowledgements.requestAck(&packet);
@@ -69,27 +74,82 @@ implementation{
 		mess->msg_type = SUBSCRIBE;
 		mess->msg_id = msg_counter++;
         mess->dev_id = TOS_NODE_ID;
-        //Subscription initialization based on node ID
-        if(TOS_NODE_ID == 3 || TOS_NODE_ID == 6|| TOS_NODE_ID == 9){
-            mess->temp = 1;
-            mess->temp_qos = 1;
-            mess->hum = 0;
-            mess->hum_qos = 0;
-            mess->lum = 1;
-            mess->lum_qos = 0;
+        //Subscription and topic initialization based on node ID
+        switch(TOS_NODE_ID){
+            case(3):
+                mess->temp = 1;
+                mess->temp_qos = 1;
+                mess->hum = 0;
+                mess->hum_qos = 0;
+                mess->lum = 1;
+                mess->lum_qos = 0;
+                node_topic = 2;
+                break;
+
+            case(6):
+                mess->temp = 0;
+                mess->temp_qos = 0;
+                mess->hum = 1;
+                mess->hum_qos = 0;
+                mess->lum = 1;
+                mess->lum_qos = 0;
+                node_topic = 1;
+                break;
+                
+            case(9):
+                mess->temp = 1;
+                mess->temp_qos = 1;
+                mess->hum = 1;
+                mess->hum_qos = 0;
+                mess->lum = 0;
+                mess->lum_qos = 0;
+                node_topic = 3;
+                break;
+                
+            case(1):
+            case(5):
+            
+                mess->temp = 0;
+                mess->temp_qos = 0;
+                mess->hum = 1;
+                mess->hum_qos = 0;
+                mess->lum = 0;
+                mess->lum_qos = 0;
+                node_topic = 3;
+                break;
+                
+            case(2):
+            case(8):
+                mess->temp = 1;
+                mess->temp_qos = 1;
+                mess->hum = 0;
+                mess->hum_qos = 0;
+                mess->lum = 0;
+                mess->lum_qos = 0;
+                node_topic = 2;
+                break;
+                
+            case(4):
+            case(7):
+                mess->temp = 0;
+                mess->temp_qos = 0;
+                mess->hum = 0;
+                mess->hum_qos = 0;
+                mess->lum = 1;
+                mess->lum_qos = 0;
+                node_topic = 1;
+                break;
+
+            default:
+                break;
         }
-        else{
-            mess->temp = 0;
-            mess->temp_qos = 0;
-            mess->hum = 1;
-            mess->hum_qos = 1;
-            mess->lum = 0;
-            mess->lum_qos = 0;
-        }
+        //qos management info
+        qos = QOS;
 
 		dbg("radio_send", "Try to send a SUBSCRIBE request to PAN COORDINATOR at time %s \n", sim_time_string());
 
-		call PacketAcknowledgements.requestAck(&packet);
+
+        call PacketAcknowledgements.requestAck(&packet);
 
 		if(call AMSend.send(PAN_COORD,&packet,sizeof(sub_msg_t)) == SUCCESS){
 			dbg("radio_send", "Packet passed to lower layer successfully!\n");
@@ -117,7 +177,7 @@ implementation{
 		pub_msg_t* mess=(pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));
 		mess->msg_type = PUBLISH;
 		mess->msg_id = msg_counter++;
-        mess->topic = call FakeSensor.rand16() % 3 + 1;
+        mess->topic = node_topic;
         mess->value = call FakeSensor.rand16();
         //Publish QoS initialization based on node ID
         if(TOS_NODE_ID == 2 || TOS_NODE_ID == 4 || TOS_NODE_ID == 9){
@@ -126,6 +186,10 @@ implementation{
         else{
             mess->qos = 1;
         }
+        
+        //qos management info
+        qos = mess->qos;
+        
         dbg("radio_send", "Try to send a PUBLISH message to PAN COORDINATOR at time %s \n", sim_time_string());
 
 		if(mess->qos == QOS){
@@ -156,19 +220,25 @@ implementation{
 	task void forwardData(){
 		pub_msg_t* mess=(pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));
 		mess->msg_type = PUBLISH;
-		mess->msg_id = msg_counter++;
+		mess->msg_id = msg_id;
         mess->topic = topic;
         mess->value = value;
+        resend = i;
         
+        dbg("radio_rec","Check forwarding to node %hhu on topic %hhu\n", sub_table[i][ID], topic);
 
         if(sub_table[i][ID] != source && sub_table[i][mess->topic] == 1){
             mess->qos = sub_table[i][mess->topic + OFFSET];
+            
+            //no ack management in forwarding
+            qos = mess->qos;
+            
             dbg("radio_rec","Forward to node %hhu, source %hhu. QoS: %hhu\n", sub_table[i][ID], source, sub_table[i][mess->topic + OFFSET]);
             if(mess->qos){
                 call PacketAcknowledgements.requestAck(&packet);
             }
             else{
-            call PacketAcknowledgements.noAck(&packet);
+                call PacketAcknowledgements.noAck(&packet);
             }
             if(call AMSend.send(sub_table[i][ID],&packet,sizeof(pub_msg_t)) == SUCCESS){
                 dbg("radio_send", "Packet passed to lower layer successfully!\n");
@@ -182,11 +252,10 @@ implementation{
                 dbg_clear("radio_pack", "\t\t topic: %hhu \n", mess->topic);
                 dbg_clear("radio_pack", "\t\t value: %hhu \n ", mess->value);
                 dbg_clear("radio_pack", "\t\t qos: %hhu \n ", mess->qos);
-                dbg_clear("radio_send", "\n ");
+                dbg_clear("radio_send", "\n");
                 dbg_clear("radio_pack", "\n");
             }
         }
-        //dbg("radio_send","sub_value: %hhu i: %hhu source: %hhu topic %hhu\n", sub_counter, i, source, topic);
         i++;
         if(i == sub_counter){
             i = 0;
@@ -256,43 +325,55 @@ implementation{
 			dbg("radio_send", "Packet sent...");
 
             if(TOS_NODE_ID == PAN_COORD){
-                if (call PacketAcknowledgements.wasAcked(buf)){
-                    dbg_clear("radio_ack", "and ack received\n");
-                }
-                else{
-                    dbg_clear("radio_ack", "but ack was not received");
-                    i--;
-                    post forwardData();
-                }
-            }
-            else if(TOS_NODE_ID != PAN_COORD){
-                if (call PacketAcknowledgements.wasAcked(buf)){
-                    dbg_clear("radio_ack", "and ack received\n");
-                    switch(node_status){
-                        case(DISCONNECTED):
-                            node_status = CONNECTED;
+                if(qos){
+                    if (call PacketAcknowledgements.wasAcked(buf)){
+                        dbg_clear("radio_ack", "and ack received\n");
 
-                            dbg("radio_ack","Node status: %hhu (CONNECTED)\n", node_status);
-                            break;
+                    }
+                    else{
+                        dbg_clear("radio_ack", "but ack was not received");
+                        i = resend;
+                        post forwardData();
 
-                        case(CONNECTED):
-                            node_status = SUBSCRIBED;
-
-                            dbg("radio_ack","Node status: %hhu (SUBSCRIBED)\n", node_status);
-                            break;
-
-                        default:
-                            break;
                     }
                 }
                 else{
-                        dbg_clear("radio_ack", "but ack was not received");
+                    dbg_clear("radio_ack", "no ack needed");
                 }
+            }
+            else if(TOS_NODE_ID != PAN_COORD){
+                if(qos){
+                    if (call PacketAcknowledgements.wasAcked(buf)){
+                        dbg_clear("radio_ack", "and ack received\n");
+                        switch(node_status){
+                            case(DISCONNECTED):
+                                node_status = CONNECTED;
+
+                                dbg("radio_ack","Node status: %hhu (CONNECTED)\n", node_status);
+                                break;
+
+                            case(CONNECTED):
+                                node_status = SUBSCRIBED;
+
+                                dbg("radio_ack","Node status: %hhu (SUBSCRIBED)\n", node_status);
+                                break;
+
+                            default:
+                                break;
+                        }
+                    }
+                    else{
+                            dbg_clear("radio_ack", "but ack was not received");
+                    }
+                }
+                else{
+                    dbg_clear("radio_ack", "no ack needed");
 
                 }
             }
 
         dbg_clear("radio_send", " at time %s \n", sim_time_string());
+        }
     }
 
 
@@ -335,15 +416,19 @@ implementation{
                     sub_table[sub_counter][TEMPERATURE + OFFSET] = sub_mess->temp_qos;
                     sub_table[sub_counter][HUMIDITY + OFFSET] = sub_mess->hum_qos;
                     sub_table[sub_counter][LUMINOSITY + OFFSET] = sub_mess->lum_qos;
+                    
+                    sub_counter++;
 
-                    dbg("radio_rec", " >>> SUBSCRIPTION by node %hhu\n", sub_mess->dev_id);
-                    for(iter = 0; iter <= sub_counter; iter++){
+                    dbg("radio_rec", " >>> SUBSCRIPTION by node %hhu , # subscripted nodes %hhu\n", sub_mess->dev_id, sub_counter);
+                    
+                    
+                    for(iter = 0; iter < sub_counter; iter++){
                         dbg("radio_rec", "\tID %hhu \n", sub_table[iter][ID]);
                         dbg("radio_rec", "\tTOPIC Temp: %hhu - Hum: %hhu - Lum: %hhu\n", sub_table[iter][TEMPERATURE] , sub_table[iter][HUMIDITY], sub_table[iter][LUMINOSITY]);
                         dbg("radio_rec", "\tQOS   Temp: %hhu - Hum: %hhu - Lum: %hhu\n", sub_table[iter][TEMPERATURE + OFFSET] , sub_table[iter][HUMIDITY + OFFSET], sub_table[iter][LUMINOSITY + OFFSET]);
                     
                     }
-                    sub_counter++;
+                    
 					break;
 
 				case(PUBLISH):
@@ -356,6 +441,7 @@ implementation{
                     if(locked == 0){
                         value = pub_mess->value;
                         topic = pub_mess->topic;
+                        msg_id = pub_mess->msg_id;
                         source = call AMPacket.source(buf);
                         locked = 1;
                         call PanCoordinatorTimer.startPeriodic(PAN_TIMER);
@@ -370,7 +456,6 @@ implementation{
 			}
         }
         else{
-            dbg_clear("radio_pack","\t\t Test \n");
             dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", pub_mess->msg_type);
             dbg_clear("radio_pack", "\t\t msg_id: %hhu \n", pub_mess->msg_id);
             dbg_clear("radio_pack", "\t\t topic: %hhu \n", pub_mess->topic);

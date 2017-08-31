@@ -31,7 +31,7 @@
 #define LUMINOSITY 3
 
 //timer
-#define NODE_TIMER 90000
+#define NODE_TIMER 56789
 #define PAN_TIMER 450
 
 typedef nx_struct conn_msg{
