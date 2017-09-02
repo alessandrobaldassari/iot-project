@@ -45,7 +45,7 @@ DEBUG (2): >>>Pack
  		 msg_id: 0 
 
  
-DEBUG (1): Message received at time 0:1:2.462814323 3 
+DEBUG (1): Message received at time 0:1:2.464675884 3 
 DEBUG (1): >>>Pack 
  	 Payload length 3 
 	 Source: 2 
@@ -58,7 +58,7 @@ DEBUG (1): >>>Pack
  
 DEBUG (2): Packet sent...and ack received
 DEBUG (2): Node status: 1 (CONNECTED)
- at time 0:1:2.462982168 
+ at time 0:1:2.464843730 
 DEBUG (3): Try to send a CONNECT request to PAN COORDINATOR at time 0:1:9.458007832 
 DEBUG (3): Packet passed to lower layer successfully!
 DEBUG (3): >>>Pack
@@ -71,7 +71,7 @@ DEBUG (3): >>>Pack
  		 msg_id: 0 
 
  
-DEBUG (1): Message received at time 0:1:9.466949430 3 
+DEBUG (1): Message received at time 0:1:9.465469336 3 
 DEBUG (1): >>>Pack 
  	 Payload length 3 
 	 Source: 3 
@@ -84,7 +84,7 @@ DEBUG (1): >>>Pack
  
 DEBUG (3): Packet sent...and ack received
 DEBUG (3): Node status: 1 (CONNECTED)
- at time 0:1:9.467117276 
+ at time 0:1:9.465637182 
 DEBUG (4): Try to send a CONNECT request to PAN COORDINATOR at time 0:1:16.458007832 
 DEBUG (4): Packet passed to lower layer successfully!
 DEBUG (4): >>>Pack
@@ -97,7 +97,7 @@ DEBUG (4): >>>Pack
  		 msg_id: 0 
 
  
-DEBUG (1): Message received at time 0:1:16.461059572 3 
+DEBUG (1): Message received at time 0:1:16.464111312 3 
 DEBUG (1): >>>Pack 
  	 Payload length 3 
 	 Source: 4 
@@ -110,7 +110,7 @@ DEBUG (1): >>>Pack
  
 DEBUG (4): Packet sent...and ack received
 DEBUG (4): Node status: 1 (CONNECTED)
- at time 0:1:16.461227418 
+ at time 0:1:16.464279158 
 DEBUG (5): Try to send a CONNECT request to PAN COORDINATOR at time 0:1:23.458007832 
 DEBUG (5): Packet passed to lower layer successfully!
 DEBUG (5): >>>Pack
@@ -123,7 +123,7 @@ DEBUG (5): >>>Pack
  		 msg_id: 0 
 
  
-DEBUG (1): Message received at time 0:1:23.462387079 3 
+DEBUG (1): Message received at time 0:1:23.467407191 3 
 DEBUG (1): >>>Pack 
  	 Payload length 3 
 	 Source: 5 
@@ -136,7 +136,7 @@ DEBUG (1): >>>Pack
  
 DEBUG (5): Packet sent...and ack received
 DEBUG (5): Node status: 1 (CONNECTED)
- at time 0:1:23.462554925 
+ at time 0:1:23.467575037 
 DEBUG (6): Try to send a CONNECT request to PAN COORDINATOR at time 0:1:30.458007832 
 DEBUG (6): Packet passed to lower layer successfully!
 DEBUG (6): >>>Pack
@@ -149,7 +149,7 @@ DEBUG (6): >>>Pack
  		 msg_id: 0 
 
  
-DEBUG (1): Message received at time 0:1:30.467056241 3 
+DEBUG (1): Message received at time 0:1:30.466552704 3 
 DEBUG (1): >>>Pack 
  	 Payload length 3 
 	 Source: 6 
@@ -162,7 +162,7 @@ DEBUG (1): >>>Pack
  
 DEBUG (6): Packet sent...and ack received
 DEBUG (6): Node status: 1 (CONNECTED)
- at time 0:1:30.467224087 
+ at time 0:1:30.466720550 
 DEBUG (7): Try to send a CONNECT request to PAN COORDINATOR at time 0:1:37.458007832 
 DEBUG (7): Packet passed to lower layer successfully!
 DEBUG (7): >>>Pack
@@ -175,7 +175,7 @@ DEBUG (7): >>>Pack
  		 msg_id: 0 
 
  
-DEBUG (1): Message received at time 0:1:37.464126571 3 
+DEBUG (1): Message received at time 0:1:37.461273194 3 
 DEBUG (1): >>>Pack 
  	 Payload length 3 
 	 Source: 7 
@@ -188,7 +188,7 @@ DEBUG (1): >>>Pack
  
 DEBUG (7): Packet sent...and ack received
 DEBUG (7): Node status: 1 (CONNECTED)
- at time 0:1:37.464294416 
+ at time 0:1:37.461441040 
 DEBUG (8): Try to send a CONNECT request to PAN COORDINATOR at time 0:1:44.458007832 
 DEBUG (8): Packet passed to lower layer successfully!
 DEBUG (8): >>>Pack
@@ -201,7 +201,7 @@ DEBUG (8): >>>Pack
  		 msg_id: 0 
 
  
-DEBUG (1): Message received at time 0:1:44.468170126 3 
+DEBUG (1): Message received at time 0:1:44.462478631 3 
 DEBUG (1): >>>Pack 
  	 Payload length 3 
 	 Source: 8 
@@ -214,7 +214,7 @@ DEBUG (1): >>>Pack
  
 DEBUG (8): Packet sent...and ack received
 DEBUG (8): Node status: 1 (CONNECTED)
- at time 0:1:44.468337972 
+ at time 0:1:44.462646477 
 DEBUG (9): Try to send a CONNECT request to PAN COORDINATOR at time 0:1:51.458007832 
 DEBUG (9): Packet passed to lower layer successfully!
 DEBUG (9): >>>Pack
@@ -227,7 +227,7 @@ DEBUG (9): >>>Pack
  		 msg_id: 0 
 
  
-DEBUG (1): Message received at time 0:1:51.465743993 3 
+DEBUG (1): Message received at time 0:1:51.468963579 3 
 DEBUG (1): >>>Pack 
  	 Payload length 3 
 	 Source: 9 
@@ -240,7 +240,7 @@ DEBUG (1): >>>Pack
  
 DEBUG (9): Packet sent...and ack received
 DEBUG (9): Node status: 1 (CONNECTED)
- at time 0:1:51.465911839 
+ at time 0:1:51.469131424 
 DEBUG (2): Try to send a SUBSCRIBE request to PAN COORDINATOR at time 0:1:57.916015645 
 DEBUG (2): Packet passed to lower layer successfully!
 DEBUG (2): >>>Pack
@@ -260,7 +260,7 @@ DEBUG (2): >>>Pack
  		 lum_qos: 0 
 
  
-DEBUG (1): Message received at time 0:1:57.922180159 10 
+DEBUG (1): Message received at time 0:1:57.920730583 10 
 DEBUG (1): >>>Pack 
  	 Payload length 10 
 	 Source: 2 
@@ -283,7 +283,7 @@ DEBUG (1): 	QOS   Temp: 1 - Hum: 0 - Lum: 0
  
 DEBUG (2): Packet sent...and ack received
 DEBUG (2): Node status: 2 (SUBSCRIBED)
- at time 0:1:57.922348005 
+ at time 0:1:57.920898429 
 DEBUG (3): Try to send a SUBSCRIBE request to PAN COORDINATOR at time 0:2:4.916015645 
 DEBUG (3): Packet passed to lower layer successfully!
 DEBUG (3): >>>Pack
@@ -303,7 +303,7 @@ DEBUG (3): >>>Pack
  		 lum_qos: 0 
 
  
-DEBUG (1): Message received at time 0:2:4.917831430 10 
+DEBUG (1): Message received at time 0:2:4.922576886 10 
 DEBUG (1): >>>Pack 
  	 Payload length 10 
 	 Source: 3 
@@ -329,7 +329,7 @@ DEBUG (1): 	QOS   Temp: 1 - Hum: 0 - Lum: 0
  
 DEBUG (3): Packet sent...and ack received
 DEBUG (3): Node status: 2 (SUBSCRIBED)
- at time 0:2:4.917999276 
+ at time 0:2:4.922744731 
 DEBUG (4): Try to send a SUBSCRIBE request to PAN COORDINATOR at time 0:2:11.916015645 
 DEBUG (4): Packet passed to lower layer successfully!
 DEBUG (4): >>>Pack
@@ -349,7 +349,7 @@ DEBUG (4): >>>Pack
  		 lum_qos: 0 
 
  
-DEBUG (1): Message received at time 0:2:11.927062943 10 
+DEBUG (1): Message received at time 0:2:11.926330526 10 
 DEBUG (1): >>>Pack 
  	 Payload length 10 
 	 Source: 4 
@@ -378,7 +378,7 @@ DEBUG (1): 	QOS   Temp: 0 - Hum: 0 - Lum: 0
  
 DEBUG (4): Packet sent...and ack received
 DEBUG (4): Node status: 2 (SUBSCRIBED)
- at time 0:2:11.927230789 
+ at time 0:2:11.926498371 
 DEBUG (5): Try to send a SUBSCRIBE request to PAN COORDINATOR at time 0:2:18.916015645 
 DEBUG (5): Packet passed to lower layer successfully!
 DEBUG (5): >>>Pack
@@ -398,7 +398,7 @@ DEBUG (5): >>>Pack
  		 lum_qos: 0 
 
  
-DEBUG (1): Message received at time 0:2:18.925552332 10 
+DEBUG (1): Message received at time 0:2:18.924850432 10 
 DEBUG (1): >>>Pack 
  	 Payload length 10 
 	 Source: 5 
@@ -430,7 +430,7 @@ DEBUG (1): 	QOS   Temp: 0 - Hum: 0 - Lum: 0
  
 DEBUG (5): Packet sent...and ack received
 DEBUG (5): Node status: 2 (SUBSCRIBED)
- at time 0:2:18.925720178 
+ at time 0:2:18.925018278 
 DEBUG (6): Try to send a SUBSCRIBE request to PAN COORDINATOR at time 0:2:25.916015645 
 DEBUG (6): Packet passed to lower layer successfully!
 DEBUG (6): >>>Pack
@@ -450,7 +450,7 @@ DEBUG (6): >>>Pack
  		 lum_qos: 0 
 
  
-DEBUG (1): Message received at time 0:2:25.923095681 10 
+DEBUG (1): Message received at time 0:2:25.924865691 10 
 DEBUG (1): >>>Pack 
  	 Payload length 10 
 	 Source: 6 
@@ -485,7 +485,7 @@ DEBUG (1): 	QOS   Temp: 0 - Hum: 0 - Lum: 0
  
 DEBUG (6): Packet sent...and ack received
 DEBUG (6): Node status: 2 (SUBSCRIBED)
- at time 0:2:25.923263527 
+ at time 0:2:25.925033536 
 DEBUG (7): Try to send a SUBSCRIBE request to PAN COORDINATOR at time 0:2:32.916015645 
 DEBUG (7): Packet passed to lower layer successfully!
 DEBUG (7): >>>Pack
@@ -505,7 +505,7 @@ DEBUG (7): >>>Pack
  		 lum_qos: 0 
 
  
-DEBUG (1): Message received at time 0:2:32.918533330 10 
+DEBUG (1): Message received at time 0:2:32.922912577 10 
 DEBUG (1): >>>Pack 
  	 Payload length 10 
 	 Source: 7 
@@ -543,7 +543,7 @@ DEBUG (1): 	QOS   Temp: 0 - Hum: 0 - Lum: 0
  
 DEBUG (7): Packet sent...and ack received
 DEBUG (7): Node status: 2 (SUBSCRIBED)
- at time 0:2:32.918701176 
+ at time 0:2:32.923080423 
 DEBUG (8): Try to send a SUBSCRIBE request to PAN COORDINATOR at time 0:2:39.916015645 
 DEBUG (8): Packet passed to lower layer successfully!
 DEBUG (8): >>>Pack
@@ -563,7 +563,7 @@ DEBUG (8): >>>Pack
  		 lum_qos: 0 
 
  
-DEBUG (1): Message received at time 0:2:39.918869021 10 
+DEBUG (1): Message received at time 0:2:39.926040610 10 
 DEBUG (1): >>>Pack 
  	 Payload length 10 
 	 Source: 8 
@@ -604,7 +604,7 @@ DEBUG (1): 	QOS   Temp: 1 - Hum: 0 - Lum: 0
  
 DEBUG (8): Packet sent...and ack received
 DEBUG (8): Node status: 2 (SUBSCRIBED)
- at time 0:2:39.919036867 
+ at time 0:2:39.926208456 
 DEBUG (9): Try to send a SUBSCRIBE request to PAN COORDINATOR at time 0:2:46.916015645 
 DEBUG (9): Packet passed to lower layer successfully!
 DEBUG (9): >>>Pack
@@ -624,7 +624,7 @@ DEBUG (9): >>>Pack
  		 lum_qos: 0 
 
  
-DEBUG (1): Message received at time 0:2:46.918762211 10 
+DEBUG (1): Message received at time 0:2:46.926025352 10 
 DEBUG (1): >>>Pack 
  	 Payload length 10 
 	 Source: 9 
@@ -668,7 +668,7 @@ DEBUG (1): 	QOS   Temp: 1 - Hum: 0 - Lum: 0
  
 DEBUG (9): Packet sent...and ack received
 DEBUG (9): Node status: 2 (SUBSCRIBED)
- at time 0:2:46.918930056 
+ at time 0:2:46.926193197 
 DEBUG (2): Try to send a PUBLISH message to PAN COORDINATOR at time 0:2:53.374023457 
 DEBUG (2): Packet passed to lower layer successfully!
 DEBUG (2): >>>Pack
@@ -684,7 +684,7 @@ DEBUG (2): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:2:53.379745470 7 
+DEBUG (1): Message received at time 0:2:53.383270229 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 2 
@@ -698,7 +698,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (2): Packet sent...no ack needed at time 0:2:53.379913315 
+DEBUG (2): Packet sent...no ack needed at time 0:2:53.383438075 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -718,7 +718,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:2:55.140045166 7 
+DEBUG (5): Message received at time 0:2:55.146362291 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -732,7 +732,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:2:55.140213012 
+DEBUG (1): Packet sent...no ack needed at time 0:2:55.146530136 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 2. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -749,7 +749,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:2:55.586151084 7 
+DEBUG (6): Message received at time 0:2:55.585479724 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -763,7 +763,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:2:55.586318930 
+DEBUG (1): Packet sent...no ack needed at time 0:2:55.585647570 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -782,7 +782,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:2:56.898666377 7 
+DEBUG (9): Message received at time 0:2:56.908096277 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -796,7 +796,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:2:56.898834223 
+DEBUG (1): Packet sent...no ack needed at time 0:2:56.908264122 
 DEBUG (3): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:0.374023457 
 DEBUG (3): Packet passed to lower layer successfully!
 DEBUG (3): >>>Pack
@@ -812,7 +812,7 @@ DEBUG (3): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:3:0.380340559 7 
+DEBUG (1): Message received at time 0:3:0.376342779 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 3 
@@ -827,7 +827,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (3): Packet sent...and ack received
- at time 0:3:0.380508405 
+ at time 0:3:0.376510625 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -847,7 +847,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:3:2.144638041 7 
+DEBUG (5): Message received at time 0:3:2.143112148 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -861,7 +861,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:2.144805886 
+DEBUG (1): Packet sent...no ack needed at time 0:3:2.143279993 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 3. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -878,7 +878,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:3:2.579727177 7 
+DEBUG (6): Message received at time 0:3:2.576660156 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -892,7 +892,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:2.579895023 
+DEBUG (1): Packet sent...no ack needed at time 0:3:2.576828002 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -911,7 +911,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:3:3.905837972 7 
+DEBUG (9): Message received at time 0:3:3.894058233 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -925,7 +925,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:3.906005818 
+DEBUG (1): Packet sent...no ack needed at time 0:3:3.894226078 
 DEBUG (4): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:7.374023457 
 DEBUG (4): Packet passed to lower layer successfully!
 DEBUG (4): >>>Pack
@@ -941,7 +941,7 @@ DEBUG (4): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:3:7.379150380 7 
+DEBUG (1): Message received at time 0:3:7.378585808 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 4 
@@ -955,7 +955,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (4): Packet sent...no ack needed at time 0:3:7.379318226 
+DEBUG (4): Packet sent...no ack needed at time 0:3:7.378753654 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -972,7 +972,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:3:7.821090702 7 
+DEBUG (2): Message received at time 0:3:7.821380611 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -987,7 +987,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:7.821258548 
+ at time 0:3:7.821548457 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1004,7 +1004,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:3:8.266662566 7 
+DEBUG (3): Message received at time 0:3:8.260833736 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1019,7 +1019,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:8.266830411 
+ at time 0:3:8.261001582 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -1040,7 +1040,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:3:10.460586535 7 
+DEBUG (8): Message received at time 0:3:10.462554902 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1055,7 +1055,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:10.460754381 
+ at time 0:3:10.462722748 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1072,7 +1072,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:3:10.899917591 7 
+DEBUG (9): Message received at time 0:3:10.896530154 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1087,7 +1087,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:10.900085436 
+ at time 0:3:10.896697999 
 DEBUG (5): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:14.374023457 
 DEBUG (5): Packet passed to lower layer successfully!
 DEBUG (5): >>>Pack
@@ -1103,7 +1103,7 @@ DEBUG (5): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:3:14.378463739 7 
+DEBUG (1): Message received at time 0:3:14.379791246 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 5 
@@ -1118,7 +1118,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (5): Packet sent...and ack received
- at time 0:3:14.378631584 
+ at time 0:3:14.379959091 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 5. QoS: 0
@@ -1136,7 +1136,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:3:15.259582523 7 
+DEBUG (3): Message received at time 0:3:15.262908925 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1150,7 +1150,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:15.259750369 
+DEBUG (1): Packet sent...no ack needed at time 0:3:15.263076771 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1167,7 +1167,21 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (1): Packet sent...no ack needed at time 0:3:15.701492299 
+DEBUG (4): Message received at time 0:3:15.704406716 7 
+DEBUG (4): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 4 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 2 
+		 topic: 3 
+		 value: 234 
+ 		 QoS: 0 
+ 
+ 
+DEBUG (1): Packet sent...no ack needed at time 0:3:15.704574562 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 5. QoS: 0
@@ -1185,7 +1199,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:3:16.583587617 7 
+DEBUG (6): Message received at time 0:3:16.582260116 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1199,7 +1213,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:16.583755463 
+DEBUG (1): Packet sent...no ack needed at time 0:3:16.582427962 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1216,7 +1230,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:3:17.020385728 7 
+DEBUG (7): Message received at time 0:3:17.019744869 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1230,7 +1244,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:17.020553574 
+DEBUG (1): Packet sent...no ack needed at time 0:3:17.019912714 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (6): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:21.374023457 
@@ -1248,7 +1262,7 @@ DEBUG (6): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:3:21.380996683 7 
+DEBUG (1): Message received at time 0:3:21.377532958 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 6 
@@ -1263,7 +1277,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (6): Packet sent...and ack received
- at time 0:3:21.381164529 
+ at time 0:3:21.377700804 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1280,7 +1294,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:3:21.823043827 7 
+DEBUG (2): Message received at time 0:3:21.822677595 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1295,7 +1309,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:21.823211673 
+ at time 0:3:21.822845441 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1312,7 +1326,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:3:22.264724722 7 
+DEBUG (3): Message received at time 0:3:22.264816251 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1327,7 +1341,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:22.264892568 
+ at time 0:3:22.264984097 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -1348,7 +1362,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:3:24.465301485 7 
+DEBUG (8): Message received at time 0:3:24.456710814 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1363,7 +1377,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:24.465469331 
+ at time 0:3:24.456878660 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1380,7 +1394,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:3:24.902572616 7 
+DEBUG (9): Message received at time 0:3:24.895019537 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1395,7 +1409,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:24.902740462 
+ at time 0:3:24.895187382 
 DEBUG (7): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:28.374023457 
 DEBUG (7): Packet passed to lower layer successfully!
 DEBUG (7): >>>Pack
@@ -1411,7 +1425,7 @@ DEBUG (7): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:3:28.379394519 7 
+DEBUG (1): Message received at time 0:3:28.382400483 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 7 
@@ -1426,7 +1440,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (7): Packet sent...and ack received
- at time 0:3:28.379562365 
+ at time 0:3:28.382568329 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1443,7 +1457,24 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:3:28.820434578 7 
+DEBUG (1): Packet sent...but ack was not received at time 0:3:28.829193089 
+DEBUG (1): Check forwarding to node 2 on topic 1
+DEBUG (1): Forward to node 2, source 7. QoS: 1
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 2 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 2 
+		 topic: 1 
+		 value: 56 
+ 		 qos: 1 
+ 
+
+DEBUG (2): Message received at time 0:3:28.840103069 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1458,7 +1489,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:28.820602423 
+ at time 0:3:28.840270915 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1475,7 +1506,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:3:29.261169434 7 
+DEBUG (3): Message received at time 0:3:29.267929055 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1490,7 +1521,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:29.261337279 
+ at time 0:3:29.268096900 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -1511,7 +1542,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:3:31.459121700 7 
+DEBUG (8): Message received at time 0:3:31.468429524 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1526,7 +1557,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:31.459289546 
+ at time 0:3:31.468597370 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1543,7 +1574,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:3:31.897399905 7 
+DEBUG (9): Message received at time 0:3:31.901321408 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1558,7 +1589,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:3:31.897567751 
+ at time 0:3:31.901489254 
 DEBUG (8): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:35.374023457 
 DEBUG (8): Packet passed to lower layer successfully!
 DEBUG (8): >>>Pack
@@ -1574,7 +1605,7 @@ DEBUG (8): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:3:35.377960202 7 
+DEBUG (1): Message received at time 0:3:35.376159675 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 8 
@@ -1589,7 +1620,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (8): Packet sent...and ack received
- at time 0:3:35.378128047 
+ at time 0:3:35.376327521 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -1609,7 +1640,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:3:37.141143787 7 
+DEBUG (5): Message received at time 0:3:37.139556871 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1623,7 +1654,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:37.141311633 
+DEBUG (1): Packet sent...no ack needed at time 0:3:37.139724716 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 8. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1640,7 +1671,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:3:37.583404513 7 
+DEBUG (6): Message received at time 0:3:37.577453608 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1654,7 +1685,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:37.583572358 
+DEBUG (1): Packet sent...no ack needed at time 0:3:37.577621454 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -1673,7 +1704,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:3:38.900207500 7 
+DEBUG (9): Message received at time 0:3:38.900833096 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1687,7 +1718,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:38.900375346 
+DEBUG (1): Packet sent...no ack needed at time 0:3:38.901000941 
 DEBUG (9): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:42.374023457 
 DEBUG (9): Packet passed to lower layer successfully!
 DEBUG (9): >>>Pack
@@ -1703,7 +1734,7 @@ DEBUG (9): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:3:42.380935648 7 
+DEBUG (1): Message received at time 0:3:42.383361781 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 9 
@@ -1717,7 +1748,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (9): Packet sent...no ack needed at time 0:3:42.381103494 
+DEBUG (9): Packet sent...no ack needed at time 0:3:42.383529627 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 9. QoS: 0
@@ -1735,7 +1766,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:3:43.262268071 7 
+DEBUG (3): Message received at time 0:3:43.269561741 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1749,7 +1780,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:43.262435917 
+DEBUG (1): Packet sent...no ack needed at time 0:3:43.269729587 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 9. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1766,7 +1797,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (4): Message received at time 0:3:43.707946746 7 
+DEBUG (4): Message received at time 0:3:43.705871574 7 
 DEBUG (4): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1780,7 +1811,7 @@ DEBUG (4): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:43.708114592 
+DEBUG (1): Packet sent...no ack needed at time 0:3:43.706039420 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 9. QoS: 0
@@ -1798,7 +1829,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:3:44.580032357 7 
+DEBUG (6): Message received at time 0:3:44.587097147 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1812,7 +1843,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:44.580200203 
+DEBUG (1): Packet sent...no ack needed at time 0:3:44.587264992 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 9. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1829,7 +1860,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:3:45.023666366 7 
+DEBUG (7): Message received at time 0:3:45.022338870 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1843,7 +1874,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:45.023834212 
+DEBUG (1): Packet sent...no ack needed at time 0:3:45.022506716 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (2): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:48.832031270 
@@ -1861,7 +1892,7 @@ DEBUG (2): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:3:48.835937497 7 
+DEBUG (1): Message received at time 0:3:48.840362520 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 2 
@@ -1875,7 +1906,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (2): Packet sent...no ack needed at time 0:3:48.836105342 
+DEBUG (2): Packet sent...no ack needed at time 0:3:48.840530365 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -1895,7 +1926,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:3:50.596832271 7 
+DEBUG (5): Message received at time 0:3:50.603042591 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1909,7 +1940,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:50.597000117 
+DEBUG (1): Packet sent...no ack needed at time 0:3:50.603210436 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 2. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -1926,7 +1957,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:3:51.033676159 7 
+DEBUG (6): Message received at time 0:3:51.039367682 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1940,7 +1971,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:51.033844004 
+DEBUG (1): Packet sent...no ack needed at time 0:3:51.039535528 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -1959,7 +1990,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:3:52.360336266 7 
+DEBUG (9): Message received at time 0:3:52.362426737 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -1973,7 +2004,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:52.360504112 
+DEBUG (1): Packet sent...no ack needed at time 0:3:52.362594582 
 DEBUG (3): Try to send a PUBLISH message to PAN COORDINATOR at time 0:3:55.832031270 
 DEBUG (3): Packet passed to lower layer successfully!
 DEBUG (3): >>>Pack
@@ -1989,7 +2020,7 @@ DEBUG (3): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:3:55.840545624 7 
+DEBUG (1): Message received at time 0:3:55.842071494 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 3 
@@ -2004,7 +2035,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (3): Packet sent...and ack received
- at time 0:3:55.840713470 
+ at time 0:3:55.842239340 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -2024,7 +2055,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:3:57.604324321 7 
+DEBUG (5): Message received at time 0:3:57.609237634 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2038,7 +2069,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:57.604492167 
+DEBUG (1): Packet sent...no ack needed at time 0:3:57.609405480 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 3. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2055,7 +2086,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:3:58.041351313 7 
+DEBUG (6): Message received at time 0:3:58.049423177 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2069,7 +2100,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:58.041519159 
+DEBUG (1): Packet sent...no ack needed at time 0:3:58.049591023 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -2088,7 +2119,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:3:59.359024047 7 
+DEBUG (9): Message received at time 0:3:59.365951508 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2102,7 +2133,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:3:59.359191892 
+DEBUG (1): Packet sent...no ack needed at time 0:3:59.366119354 
 DEBUG (4): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:2.832031270 
 DEBUG (4): Packet passed to lower layer successfully!
 DEBUG (4): >>>Pack
@@ -2118,7 +2149,7 @@ DEBUG (4): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:4:2.837158193 7 
+DEBUG (1): Message received at time 0:4:2.836761467 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 4 
@@ -2132,7 +2163,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (4): Packet sent...no ack needed at time 0:4:2.837326038 
+DEBUG (4): Packet sent...no ack needed at time 0:4:2.836929312 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2149,7 +2180,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:4:3.281417837 7 
+DEBUG (2): Message received at time 0:4:3.281265244 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2164,7 +2195,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:3.281585682 
+ at time 0:4:3.281433090 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2181,7 +2212,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:4:3.725402796 7 
+DEBUG (3): Message received at time 0:4:3.721679667 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2196,7 +2227,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:3.725570641 
+ at time 0:4:3.721847513 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -2217,7 +2248,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:4:5.919128402 7 
+DEBUG (8): Message received at time 0:4:5.922012291 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2232,7 +2263,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:5.919296248 
+ at time 0:4:5.922180137 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2249,7 +2280,38 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:4:6.355133061 7 
+DEBUG (9): Message received at time 0:4:6.354019170 7 
+DEBUG (9): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 9 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 3 
+		 topic: 1 
+		 value: 181 
+ 		 QoS: 1 
+ 
+ 
+DEBUG (1): Packet sent...but ack was not received at time 0:4:6.354187016 
+DEBUG (1): Check forwarding to node 9 on topic 1
+DEBUG (1): Forward to node 9, source 4. QoS: 1
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 9 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 3 
+		 topic: 1 
+		 value: 181 
+ 		 qos: 1 
+ 
+
+DEBUG (9): Message received at time 0:4:6.358245840 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2264,7 +2326,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:6.355300907 
+ at time 0:4:6.358413686 
 DEBUG (5): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:9.832031270 
 DEBUG (5): Packet passed to lower layer successfully!
 DEBUG (5): >>>Pack
@@ -2280,7 +2342,7 @@ DEBUG (5): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:4:9.836563103 7 
+DEBUG (1): Message received at time 0:4:9.838989237 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 5 
@@ -2295,7 +2357,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (5): Packet sent...and ack received
- at time 0:4:9.836730949 
+ at time 0:4:9.839157082 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 5. QoS: 0
@@ -2313,7 +2375,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:4:10.718948360 7 
+DEBUG (3): Message received at time 0:4:10.727462732 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2327,7 +2389,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:10.719116206 
+DEBUG (1): Packet sent...no ack needed at time 0:4:10.727630577 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2344,21 +2406,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (4): Message received at time 0:4:11.157684326 7 
-DEBUG (4): >>>Pack 
- 	 Payload length 7 
-	 Source: 1 
-	 Destination: 4 
-	 AM Type: 6 
-		 Payload 
-		 msg_type: 3 
-		 msg_id: 3 
-		 topic: 3 
-		 value: 166 
- 		 QoS: 0 
- 
- 
-DEBUG (1): Packet sent...no ack needed at time 0:4:11.157852172 
+DEBUG (1): Packet sent...no ack needed at time 0:4:11.164184549 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 5. QoS: 0
@@ -2376,7 +2424,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:4:12.040725684 7 
+DEBUG (6): Message received at time 0:4:12.038787846 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2390,7 +2438,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:12.040893529 
+DEBUG (1): Packet sent...no ack needed at time 0:4:12.038955692 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2407,7 +2455,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:4:12.479186993 7 
+DEBUG (7): Message received at time 0:4:12.482513407 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2421,7 +2469,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:12.479354839 
+DEBUG (1): Packet sent...no ack needed at time 0:4:12.482681253 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (6): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:16.832031270 
@@ -2439,7 +2487,7 @@ DEBUG (6): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:4:16.834182746 7 
+DEBUG (1): Message received at time 0:4:16.835006716 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 6 
@@ -2454,7 +2502,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (6): Packet sent...and ack received
- at time 0:4:16.834350592 
+ at time 0:4:16.835174562 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2471,7 +2519,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:4:17.280563332 7 
+DEBUG (2): Message received at time 0:4:17.280731184 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2486,7 +2534,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:17.280731178 
+ at time 0:4:17.280899030 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2503,7 +2551,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:4:17.719223005 7 
+DEBUG (3): Message received at time 0:4:17.719009389 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2518,7 +2566,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:17.719390851 
+ at time 0:4:17.719177235 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -2539,7 +2587,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:4:19.919631922 7 
+DEBUG (8): Message received at time 0:4:19.916992173 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2554,7 +2602,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:19.919799768 
+ at time 0:4:19.917160019 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2571,7 +2619,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:4:20.351989752 7 
+DEBUG (9): Message received at time 0:4:20.354705806 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2586,7 +2634,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:20.352157597 
+ at time 0:4:20.354873652 
 DEBUG (7): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:23.832031270 
 DEBUG (7): Packet passed to lower layer successfully!
 DEBUG (7): >>>Pack
@@ -2602,7 +2650,7 @@ DEBUG (7): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:4:23.840026828 7 
+DEBUG (1): Message received at time 0:4:23.842178305 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 7 
@@ -2617,7 +2665,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (7): Packet sent...and ack received
- at time 0:4:23.840194674 
+ at time 0:4:23.842346151 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2634,7 +2682,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:4:24.283950798 7 
+DEBUG (2): Message received at time 0:4:24.284042362 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2649,7 +2697,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:24.284118644 
+ at time 0:4:24.284210207 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2666,7 +2714,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:4:24.728729209 7 
+DEBUG (3): Message received at time 0:4:24.723800661 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2681,7 +2729,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:24.728897055 
+ at time 0:4:24.723968506 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -2702,7 +2750,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:4:26.920593255 7 
+DEBUG (8): Message received at time 0:4:26.924743632 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2717,7 +2765,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:26.920761100 
+ at time 0:4:26.924911478 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2734,7 +2782,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:4:27.361999493 7 
+DEBUG (9): Message received at time 0:4:27.361862176 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2749,7 +2797,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:27.362167339 
+ at time 0:4:27.362030022 
 DEBUG (8): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:30.832031270 
 DEBUG (8): Packet passed to lower layer successfully!
 DEBUG (8): >>>Pack
@@ -2765,7 +2813,7 @@ DEBUG (8): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:4:30.835296631 7 
+DEBUG (1): Message received at time 0:4:30.834533696 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 8 
@@ -2780,7 +2828,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (8): Packet sent...and ack received
- at time 0:4:30.835464477 
+ at time 0:4:30.834701542 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -2800,7 +2848,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:4:32.601684538 7 
+DEBUG (5): Message received at time 0:4:32.599884006 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2814,7 +2862,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:32.601852384 
+DEBUG (1): Packet sent...no ack needed at time 0:4:32.600051851 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 8. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2831,7 +2879,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:4:33.041854822 7 
+DEBUG (6): Message received at time 0:4:33.035507197 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2845,7 +2893,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:33.042022667 
+DEBUG (1): Packet sent...no ack needed at time 0:4:33.035675043 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -2864,7 +2912,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:4:34.355484000 7 
+DEBUG (9): Message received at time 0:4:34.353118896 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2878,7 +2926,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:34.355651845 
+DEBUG (1): Packet sent...no ack needed at time 0:4:34.353286741 
 DEBUG (9): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:37.832031270 
 DEBUG (9): Packet passed to lower layer successfully!
 DEBUG (9): >>>Pack
@@ -2894,7 +2942,7 @@ DEBUG (9): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:4:37.842956499 7 
+DEBUG (1): Message received at time 0:4:37.834884646 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 9 
@@ -2908,7 +2956,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (9): Packet sent...no ack needed at time 0:4:37.843124344 
+DEBUG (9): Packet sent...no ack needed at time 0:4:37.835052492 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 9. QoS: 0
@@ -2926,7 +2974,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:4:38.727508530 7 
+DEBUG (3): Message received at time 0:4:38.718734727 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2940,7 +2988,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:38.727676376 
+DEBUG (1): Packet sent...no ack needed at time 0:4:38.718902572 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 9. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -2957,7 +3005,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (4): Message received at time 0:4:39.169113132 7 
+DEBUG (4): Message received at time 0:4:39.161010711 7 
 DEBUG (4): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -2971,7 +3019,7 @@ DEBUG (4): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:39.169280978 
+DEBUG (1): Packet sent...no ack needed at time 0:4:39.161178557 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 9. QoS: 0
@@ -2989,7 +3037,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:4:40.050033531 7 
+DEBUG (6): Message received at time 0:4:40.036071769 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3003,7 +3051,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:40.050201376 
+DEBUG (1): Packet sent...no ack needed at time 0:4:40.036239614 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 9. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3020,7 +3068,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:4:40.489318810 7 
+DEBUG (7): Message received at time 0:4:40.479003877 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3034,7 +3082,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:40.489486656 
+DEBUG (1): Packet sent...no ack needed at time 0:4:40.479171723 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (2): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:44.290039082 
@@ -3052,7 +3100,7 @@ DEBUG (2): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:4:44.298110934 7 
+DEBUG (1): Message received at time 0:4:44.297241188 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 2 
@@ -3066,7 +3114,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (2): Packet sent...no ack needed at time 0:4:44.298278780 
+DEBUG (2): Packet sent...no ack needed at time 0:4:44.297409034 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -3086,7 +3134,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:4:46.057769783 7 
+DEBUG (5): Message received at time 0:4:46.060577378 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3100,7 +3148,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:46.057937628 
+DEBUG (1): Packet sent...no ack needed at time 0:4:46.060745223 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 2. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3117,7 +3165,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:4:46.498504638 7 
+DEBUG (6): Message received at time 0:4:46.498519891 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3131,7 +3179,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:46.498672484 
+DEBUG (1): Packet sent...no ack needed at time 0:4:46.498687737 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -3150,7 +3198,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:4:47.815902715 7 
+DEBUG (9): Message received at time 0:4:47.816848749 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3164,7 +3212,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:47.816070561 
+DEBUG (1): Packet sent...no ack needed at time 0:4:47.817016595 
 DEBUG (3): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:51.290039082 
 DEBUG (3): Packet passed to lower layer successfully!
 DEBUG (3): >>>Pack
@@ -3180,7 +3228,7 @@ DEBUG (3): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:4:51.300720172 7 
+DEBUG (1): Message received at time 0:4:51.296936014 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 3 
@@ -3195,7 +3243,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (3): Packet sent...and ack received
- at time 0:4:51.300888018 
+ at time 0:4:51.297103860 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -3215,7 +3263,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:4:53.063735946 7 
+DEBUG (5): Message received at time 0:4:53.059310906 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3229,7 +3277,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:53.063903791 
+DEBUG (1): Packet sent...no ack needed at time 0:4:53.059478751 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 3. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3246,7 +3294,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:4:53.504013041 7 
+DEBUG (6): Message received at time 0:4:53.502853362 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3260,7 +3308,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:53.504180886 
+DEBUG (1): Packet sent...no ack needed at time 0:4:53.503021208 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -3279,7 +3327,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:4:54.822219829 7 
+DEBUG (9): Message received at time 0:4:54.816925043 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3293,7 +3341,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:4:54.822387674 
+DEBUG (1): Packet sent...no ack needed at time 0:4:54.817092888 
 DEBUG (4): Try to send a PUBLISH message to PAN COORDINATOR at time 0:4:58.290039082 
 DEBUG (4): Packet passed to lower layer successfully!
 DEBUG (4): >>>Pack
@@ -3309,7 +3357,7 @@ DEBUG (4): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:4:58.298431367 7 
+DEBUG (1): Message received at time 0:4:58.300064048 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 4 
@@ -3323,7 +3371,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (4): Packet sent...no ack needed at time 0:4:58.298599213 
+DEBUG (4): Packet sent...no ack needed at time 0:4:58.300231894 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3340,7 +3388,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:4:58.741302486 7 
+DEBUG (2): Message received at time 0:4:58.745254501 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3355,7 +3403,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:58.741470332 
+ at time 0:4:58.745422347 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3372,7 +3420,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:4:59.187560992 7 
+DEBUG (3): Message received at time 0:4:59.189163167 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3387,7 +3435,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:4:59.187728837 
+ at time 0:4:59.189331012 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -3408,7 +3456,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:5:1.378387445 7 
+DEBUG (8): Message received at time 0:5:1.386917070 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3423,7 +3471,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:1.378555291 
+ at time 0:5:1.387084916 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3440,7 +3488,24 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:5:1.818115227 7 
+DEBUG (1): Packet sent...but ack was not received at time 0:5:1.821273789 
+DEBUG (1): Check forwarding to node 9 on topic 1
+DEBUG (1): Forward to node 9, source 4. QoS: 1
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 9 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 4 
+		 topic: 1 
+		 value: 64 
+ 		 qos: 1 
+ 
+
+DEBUG (9): Message received at time 0:5:1.829772895 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3455,7 +3520,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:1.818283073 
+ at time 0:5:1.829940741 
 DEBUG (5): Try to send a PUBLISH message to PAN COORDINATOR at time 0:5:5.290039082 
 DEBUG (5): Packet passed to lower layer successfully!
 DEBUG (5): >>>Pack
@@ -3471,7 +3536,7 @@ DEBUG (5): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:5:5.292724613 7 
+DEBUG (1): Message received at time 0:5:5.296630840 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 5 
@@ -3486,7 +3551,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (5): Packet sent...and ack received
- at time 0:5:5.292892459 
+ at time 0:5:5.296798686 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 5. QoS: 0
@@ -3504,7 +3569,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:5:6.181274373 7 
+DEBUG (3): Message received at time 0:5:6.178329467 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3518,7 +3583,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:6.181442219 
+DEBUG (1): Packet sent...no ack needed at time 0:5:6.178497312 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3535,7 +3600,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (4): Message received at time 0:5:6.615325918 7 
+DEBUG (4): Message received at time 0:5:6.619400014 7 
 DEBUG (4): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3549,7 +3614,7 @@ DEBUG (4): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:6.615493764 
+DEBUG (1): Packet sent...no ack needed at time 0:5:6.619567860 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 5. QoS: 0
@@ -3567,7 +3632,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:5:7.493469233 7 
+DEBUG (6): Message received at time 0:5:7.499847393 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3581,7 +3646,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:7.493637079 
+DEBUG (1): Packet sent...no ack needed at time 0:5:7.500015238 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3598,7 +3663,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:5:7.934677109 7 
+DEBUG (7): Message received at time 0:5:7.943145710 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3612,7 +3677,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:7.934844954 
+DEBUG (1): Packet sent...no ack needed at time 0:5:7.943313556 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (6): Try to send a PUBLISH message to PAN COORDINATOR at time 0:5:12.290039082 
@@ -3630,7 +3695,7 @@ DEBUG (6): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:5:12.299392665 7 
+DEBUG (1): Message received at time 0:5:12.298202487 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 6 
@@ -3645,7 +3710,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (6): Packet sent...and ack received
- at time 0:5:12.299560511 
+ at time 0:5:12.298370332 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3662,7 +3727,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:5:12.744247421 7 
+DEBUG (2): Message received at time 0:5:12.746246305 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3677,7 +3742,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:12.744415267 
+ at time 0:5:12.746414151 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3694,7 +3759,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:5:13.184844949 7 
+DEBUG (3): Message received at time 0:5:13.183792093 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3709,7 +3774,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:13.185012794 
+ at time 0:5:13.183959938 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -3730,7 +3795,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:5:15.378906247 7 
+DEBUG (8): Message received at time 0:5:15.376831058 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3745,7 +3810,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:15.379074092 
+ at time 0:5:15.376998904 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3762,7 +3827,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:5:15.825378374 7 
+DEBUG (9): Message received at time 0:5:15.820754982 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3777,7 +3842,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:15.825546219 
+ at time 0:5:15.820922828 
 DEBUG (7): Try to send a PUBLISH message to PAN COORDINATOR at time 0:5:19.290039082 
 DEBUG (7): Packet passed to lower layer successfully!
 DEBUG (7): >>>Pack
@@ -3793,7 +3858,7 @@ DEBUG (7): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:5:19.292160041 7 
+DEBUG (1): Message received at time 0:5:19.291961678 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 7 
@@ -3808,7 +3873,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (7): Packet sent...and ack received
- at time 0:5:19.292327887 
+ at time 0:5:19.292129524 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3825,7 +3890,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:5:19.735046385 7 
+DEBUG (2): Message received at time 0:5:19.734283445 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3840,7 +3905,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:19.735214231 
+ at time 0:5:19.734451290 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3857,7 +3922,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:5:20.178497290 7 
+DEBUG (3): Message received at time 0:5:20.175735459 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3872,7 +3937,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:20.178665135 
+ at time 0:5:20.175903305 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -3893,7 +3958,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:5:22.372070309 7 
+DEBUG (8): Message received at time 0:5:22.370773314 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3908,7 +3973,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:22.372238155 
+ at time 0:5:22.370941160 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -3925,7 +3990,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:5:22.809448251 7 
+DEBUG (9): Message received at time 0:5:22.812026966 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -3940,7 +4005,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:22.809616097 
+ at time 0:5:22.812194811 
 DEBUG (8): Try to send a PUBLISH message to PAN COORDINATOR at time 0:5:26.290039082 
 DEBUG (8): Packet passed to lower layer successfully!
 DEBUG (8): >>>Pack
@@ -3956,7 +4021,7 @@ DEBUG (8): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:5:26.292678837 7 
+DEBUG (1): Message received at time 0:5:26.296707134 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 8 
@@ -3971,7 +4036,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (8): Packet sent...and ack received
- at time 0:5:26.292846683 
+ at time 0:5:26.296874980 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -3991,7 +4056,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:5:28.052200323 7 
+DEBUG (5): Message received at time 0:5:28.057083130 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4005,7 +4070,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:28.052368169 
+DEBUG (1): Packet sent...no ack needed at time 0:5:28.057250975 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 8. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4022,7 +4087,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:5:28.497787445 7 
+DEBUG (6): Message received at time 0:5:28.500656104 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4036,7 +4101,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:28.497955291 
+DEBUG (1): Packet sent...no ack needed at time 0:5:28.500823949 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -4055,7 +4120,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:5:29.812652578 7 
+DEBUG (9): Message received at time 0:5:29.815216062 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4069,7 +4134,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:29.812820424 
+DEBUG (1): Packet sent...no ack needed at time 0:5:29.815383908 
 DEBUG (9): Try to send a PUBLISH message to PAN COORDINATOR at time 0:5:33.290039082 
 DEBUG (9): Packet passed to lower layer successfully!
 DEBUG (9): >>>Pack
@@ -4085,7 +4150,7 @@ DEBUG (9): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:5:33.297973606 7 
+DEBUG (1): Message received at time 0:5:33.294281001 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 9 
@@ -4099,7 +4164,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (9): Packet sent...no ack needed at time 0:5:33.298141452 
+DEBUG (9): Packet sent...no ack needed at time 0:5:33.294448846 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 9. QoS: 0
@@ -4117,7 +4182,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:5:34.185119600 7 
+DEBUG (3): Message received at time 0:5:34.178710923 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4131,7 +4196,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:34.185287445 
+DEBUG (1): Packet sent...no ack needed at time 0:5:34.178878769 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 9. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4148,7 +4213,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (4): Message received at time 0:5:34.618652349 7 
+DEBUG (4): Message received at time 0:5:34.617691028 7 
 DEBUG (4): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4162,7 +4227,7 @@ DEBUG (4): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:34.618820195 
+DEBUG (1): Packet sent...no ack needed at time 0:5:34.617858874 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 9. QoS: 0
@@ -4180,7 +4245,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:5:35.503082248 7 
+DEBUG (6): Message received at time 0:5:35.497055039 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4194,7 +4259,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:35.503250094 
+DEBUG (1): Packet sent...no ack needed at time 0:5:35.497222885 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 9. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4211,7 +4276,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:5:35.937210087 7 
+DEBUG (7): Message received at time 0:5:35.933624270 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4225,7 +4290,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:35.937377933 
+DEBUG (1): Packet sent...no ack needed at time 0:5:35.933792116 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (2): Try to send a PUBLISH message to PAN COORDINATOR at time 0:5:39.748046895 
@@ -4243,7 +4308,7 @@ DEBUG (2): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:5:39.751602172 7 
+DEBUG (1): Message received at time 0:5:39.756134006 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 2 
@@ -4257,7 +4322,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (2): Packet sent...no ack needed at time 0:5:39.751770017 
+DEBUG (2): Packet sent...no ack needed at time 0:5:39.756301851 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -4277,7 +4342,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:5:41.511047370 7 
+DEBUG (5): Message received at time 0:5:41.520874001 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4291,7 +4356,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:41.511215215 
+DEBUG (1): Packet sent...no ack needed at time 0:5:41.521041847 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 2. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4308,7 +4373,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:5:41.951873778 7 
+DEBUG (6): Message received at time 0:5:41.957397456 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4322,7 +4387,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:41.952041623 
+DEBUG (1): Packet sent...no ack needed at time 0:5:41.957565301 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -4341,7 +4406,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:5:43.273193340 7 
+DEBUG (9): Message received at time 0:5:43.276473989 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4355,7 +4420,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:43.273361186 
+DEBUG (1): Packet sent...no ack needed at time 0:5:43.276641835 
 DEBUG (3): Try to send a PUBLISH message to PAN COORDINATOR at time 0:5:46.748046895 
 DEBUG (3): Packet passed to lower layer successfully!
 DEBUG (3): >>>Pack
@@ -4371,7 +4436,7 @@ DEBUG (3): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:5:46.752807609 7 
+DEBUG (1): Message received at time 0:5:46.759155228 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 3 
@@ -4386,7 +4451,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (3): Packet sent...and ack received
- at time 0:5:46.752975455 
+ at time 0:5:46.759323074 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -4406,7 +4471,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:5:48.516891457 7 
+DEBUG (5): Message received at time 0:5:48.520050048 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4420,7 +4485,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:48.517059303 
+DEBUG (1): Packet sent...no ack needed at time 0:5:48.520217894 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 3. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4437,7 +4502,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:5:48.952529907 7 
+DEBUG (6): Message received at time 0:5:48.958343512 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4451,7 +4516,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:48.952697753 
+DEBUG (1): Packet sent...no ack needed at time 0:5:48.958511358 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -4470,7 +4535,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:5:50.270309452 7 
+DEBUG (9): Message received at time 0:5:50.283462491 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4484,7 +4549,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:5:50.270477298 
+DEBUG (1): Packet sent...no ack needed at time 0:5:50.283630337 
 DEBUG (4): Try to send a PUBLISH message to PAN COORDINATOR at time 0:5:53.748046895 
 DEBUG (4): Packet passed to lower layer successfully!
 DEBUG (4): >>>Pack
@@ -4500,7 +4565,7 @@ DEBUG (4): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:5:53.752777092 7 
+DEBUG (1): Message received at time 0:5:53.754760723 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 4 
@@ -4514,7 +4579,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (4): Packet sent...no ack needed at time 0:5:53.752944937 
+DEBUG (4): Packet sent...no ack needed at time 0:5:53.754928568 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4531,7 +4596,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:5:54.193878179 7 
+DEBUG (2): Message received at time 0:5:54.202957117 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4546,7 +4611,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:54.194046025 
+ at time 0:5:54.203124963 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4563,7 +4628,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:5:54.633697513 7 
+DEBUG (3): Message received at time 0:5:54.635040290 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4578,7 +4643,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:54.633865358 
+ at time 0:5:54.635208135 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -4599,7 +4664,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:5:56.837020842 7 
+DEBUG (8): Message received at time 0:5:56.833786009 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4614,7 +4679,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:56.837188687 
+ at time 0:5:56.833953854 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4631,7 +4696,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:5:57.277450523 7 
+DEBUG (9): Message received at time 0:5:57.275894147 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4646,7 +4711,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:5:57.277618369 
+ at time 0:5:57.276061993 
 DEBUG (5): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:0.748046895 
 DEBUG (5): Packet passed to lower layer successfully!
 DEBUG (5): >>>Pack
@@ -4662,7 +4727,7 @@ DEBUG (5): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:6:0.751022341 7 
+DEBUG (1): Message received at time 0:6:0.753875718 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 5 
@@ -4677,7 +4742,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (5): Packet sent...and ack received
- at time 0:6:0.751190187 
+ at time 0:6:0.754043564 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 5. QoS: 0
@@ -4695,7 +4760,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:6:1.639877281 7 
+DEBUG (3): Message received at time 0:6:1.639633153 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4709,7 +4774,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:1.640045126 
+DEBUG (1): Packet sent...no ack needed at time 0:6:1.639800998 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4726,7 +4791,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (4): Message received at time 0:6:2.073501582 7 
+DEBUG (4): Message received at time 0:6:2.075576777 7 
 DEBUG (4): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4740,7 +4805,7 @@ DEBUG (4): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:2.073669428 
+DEBUG (1): Packet sent...no ack needed at time 0:6:2.075744622 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 5. QoS: 0
@@ -4758,7 +4823,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:6:2.953216543 7 
+DEBUG (6): Message received at time 0:6:2.956893901 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4772,7 +4837,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:2.953384389 
+DEBUG (1): Packet sent...no ack needed at time 0:6:2.957061747 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4789,7 +4854,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:6:3.392120355 7 
+DEBUG (7): Message received at time 0:6:3.398208588 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4803,7 +4868,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:3.392288201 
+DEBUG (1): Packet sent...no ack needed at time 0:6:3.398376433 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (6): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:7.748046895 
@@ -4821,7 +4886,7 @@ DEBUG (6): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:6:7.754943827 7 
+DEBUG (1): Message received at time 0:6:7.757064786 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 6 
@@ -4836,7 +4901,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (6): Packet sent...and ack received
- at time 0:6:7.755111673 
+ at time 0:6:7.757232632 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4853,7 +4918,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:6:8.196792608 7 
+DEBUG (2): Message received at time 0:6:8.204269382 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4868,7 +4933,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:8.196960453 
+ at time 0:6:8.204437228 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4885,7 +4950,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:6:8.636489872 7 
+DEBUG (3): Message received at time 0:6:8.638595584 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4900,7 +4965,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:8.636657718 
+ at time 0:6:8.638763430 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -4921,7 +4986,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:6:10.841964678 7 
+DEBUG (8): Message received at time 0:6:10.843048057 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4936,7 +5001,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:10.842132523 
+ at time 0:6:10.843215902 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -4953,7 +5018,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:6:11.280822713 7 
+DEBUG (9): Message received at time 0:6:11.282043421 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -4968,7 +5033,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:11.280990559 
+ at time 0:6:11.282211266 
 DEBUG (7): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:14.748046895 
 DEBUG (7): Packet passed to lower layer successfully!
 DEBUG (7): >>>Pack
@@ -4984,7 +5049,7 @@ DEBUG (7): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:6:14.755233742 7 
+DEBUG (1): Message received at time 0:6:14.752975455 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 7 
@@ -4999,7 +5064,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (7): Packet sent...and ack received
- at time 0:6:14.755401588 
+ at time 0:6:14.753143300 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5016,7 +5081,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:6:15.199661243 7 
+DEBUG (2): Message received at time 0:6:15.202560385 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5031,7 +5096,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:15.199829089 
+ at time 0:6:15.202728231 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5048,7 +5113,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:6:15.643264735 7 
+DEBUG (3): Message received at time 0:6:15.633499155 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5063,7 +5128,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:15.643432580 
+ at time 0:6:15.633667001 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -5084,7 +5149,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:6:17.838577246 7 
+DEBUG (8): Message received at time 0:6:17.835891704 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5099,7 +5164,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:17.838745092 
+ at time 0:6:17.836059549 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 7. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5116,7 +5181,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:6:18.275894153 7 
+DEBUG (9): Message received at time 0:6:18.274078356 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5131,7 +5196,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:18.276061999 
+ at time 0:6:18.274246202 
 DEBUG (8): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:21.748046895 
 DEBUG (8): Packet passed to lower layer successfully!
 DEBUG (8): >>>Pack
@@ -5147,7 +5212,7 @@ DEBUG (8): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:6:21.754196151 7 
+DEBUG (1): Message received at time 0:6:21.752227778 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 8 
@@ -5162,7 +5227,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (8): Packet sent...and ack received
- at time 0:6:21.754363996 
+ at time 0:6:21.752395624 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -5182,7 +5247,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:6:23.521743735 7 
+DEBUG (5): Message received at time 0:6:23.516342144 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5196,7 +5261,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:23.521911581 
+DEBUG (1): Packet sent...no ack needed at time 0:6:23.516509990 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 8. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5213,7 +5278,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:6:23.957199081 7 
+DEBUG (6): Message received at time 0:6:23.955306991 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5227,7 +5292,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:23.957366927 
+DEBUG (1): Packet sent...no ack needed at time 0:6:23.955474837 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -5246,7 +5311,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:6:25.279113733 7 
+DEBUG (9): Message received at time 0:6:25.273925764 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5260,7 +5325,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:25.279281579 
+DEBUG (1): Packet sent...no ack needed at time 0:6:25.274093609 
 DEBUG (9): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:28.748046895 
 DEBUG (9): Packet passed to lower layer successfully!
 DEBUG (9): >>>Pack
@@ -5276,7 +5341,7 @@ DEBUG (9): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:6:28.757247891 7 
+DEBUG (1): Message received at time 0:6:28.751541137 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 9 
@@ -5290,7 +5355,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (9): Packet sent...no ack needed at time 0:6:28.757415736 
+DEBUG (9): Packet sent...no ack needed at time 0:6:28.751708983 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 9. QoS: 0
@@ -5308,7 +5373,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:6:29.641448961 7 
+DEBUG (3): Message received at time 0:6:29.632080085 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5322,7 +5387,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:29.641616807 
+DEBUG (1): Packet sent...no ack needed at time 0:6:29.632247931 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 9. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5339,7 +5404,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (4): Message received at time 0:6:30.078125002 7 
+DEBUG (4): Message received at time 0:6:30.074661243 7 
 DEBUG (4): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5353,7 +5418,7 @@ DEBUG (4): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:30.078292848 
+DEBUG (1): Packet sent...no ack needed at time 0:6:30.074829089 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 9. QoS: 0
@@ -5371,7 +5436,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:6:30.964401205 7 
+DEBUG (6): Message received at time 0:6:30.953582752 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5385,7 +5450,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:30.964569050 
+DEBUG (1): Packet sent...no ack needed at time 0:6:30.953750598 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 9. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5402,7 +5467,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:6:31.399230943 7 
+DEBUG (7): Message received at time 0:6:31.390823366 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5416,7 +5481,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:31.399398789 
+DEBUG (1): Packet sent...no ack needed at time 0:6:31.390991211 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (2): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:35.206054707 
@@ -5434,7 +5499,7 @@ DEBUG (2): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:6:35.208969119 7 
+DEBUG (1): Message received at time 0:6:35.216598469 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 2 
@@ -5448,7 +5513,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (2): Packet sent...no ack needed at time 0:6:35.209136964 
+DEBUG (2): Packet sent...no ack needed at time 0:6:35.216766314 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -5468,7 +5533,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:6:36.970733633 7 
+DEBUG (5): Message received at time 0:6:36.981842013 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5482,7 +5547,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:36.970901479 
+DEBUG (1): Packet sent...no ack needed at time 0:6:36.982009858 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 2. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5499,7 +5564,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:6:37.412795996 7 
+DEBUG (6): Message received at time 0:6:37.416748045 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5513,7 +5578,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:37.412963842 
+DEBUG (1): Packet sent...no ack needed at time 0:6:37.416915891 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -5532,7 +5597,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:6:38.729782088 7 
+DEBUG (9): Message received at time 0:6:38.735107420 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5546,7 +5611,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:38.729949934 
+DEBUG (1): Packet sent...no ack needed at time 0:6:38.735275266 
 DEBUG (3): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:42.206054707 
 DEBUG (3): Packet passed to lower layer successfully!
 DEBUG (3): >>>Pack
@@ -5562,7 +5627,7 @@ DEBUG (3): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:6:42.213836644 7 
+DEBUG (1): Message received at time 0:6:42.214920012 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 3 
@@ -5576,8 +5641,39 @@ DEBUG (1): >>>Pack
  		 QoS: 1 
  
  
+DEBUG (3): Packet sent...but ack was not received
+DEBUG (3): New data publication at time 0:6:42.215087857 
+DEBUG (3): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:42.215087867 
+DEBUG (3): Packet passed to lower layer successfully!
+DEBUG (3): >>>Pack
+ 	 Payload length 7 
+	 Source: 3 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 7 
+		 topic: 2 
+		 value: 32 
+ 		 qos: 1 
+ 
+ 
+DEBUG (1): Message received at time 0:6:42.225585853 7 
+DEBUG (1): >>>Pack 
+ 	 Payload length 7 
+	 Source: 3 
+	 Destination: 1 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 7 
+		 topic: 2 
+		 value: 32 
+ 		 QoS: 1 
+ 
+ 
 DEBUG (3): Packet sent...and ack received
- at time 0:6:42.214004490 
+ at time 0:6:42.225753699 
 DEBUG (1): Check forwarding to node 2 on topic 2
 DEBUG (1): Check forwarding to node 3 on topic 2
 DEBUG (1): Check forwarding to node 4 on topic 2
@@ -5597,7 +5693,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (5): Message received at time 0:6:43.976715072 7 
+DEBUG (5): Message received at time 0:6:43.973953259 7 
 DEBUG (5): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5611,7 +5707,7 @@ DEBUG (5): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:43.976882918 
+DEBUG (1): Packet sent...no ack needed at time 0:6:43.974121105 
 DEBUG (1): Check forwarding to node 6 on topic 2
 DEBUG (1): Forward to node 6, source 3. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5628,7 +5724,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:6:44.418945281 7 
+DEBUG (6): Message received at time 0:6:44.414291389 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5642,7 +5738,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:44.419113126 
+DEBUG (1): Packet sent...no ack needed at time 0:6:44.414459234 
 DEBUG (1): Check forwarding to node 7 on topic 2
 DEBUG (1): Check forwarding to node 8 on topic 2
 DEBUG (1): Check forwarding to node 9 on topic 2
@@ -5661,7 +5757,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (9): Message received at time 0:6:45.732238767 7 
+DEBUG (9): Message received at time 0:6:45.737594582 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5675,7 +5771,7 @@ DEBUG (9): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:45.732406613 
+DEBUG (1): Packet sent...no ack needed at time 0:6:45.737762428 
 DEBUG (4): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:49.206054707 
 DEBUG (4): Packet passed to lower layer successfully!
 DEBUG (4): >>>Pack
@@ -5691,7 +5787,7 @@ DEBUG (4): >>>Pack
  		 qos: 0 
  
  
-DEBUG (1): Message received at time 0:6:49.214431733 7 
+DEBUG (1): Message received at time 0:6:49.207397473 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 4 
@@ -5705,7 +5801,7 @@ DEBUG (1): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (4): Packet sent...no ack needed at time 0:6:49.214599579 
+DEBUG (4): Packet sent...no ack needed at time 0:6:49.207565318 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5722,7 +5818,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:6:49.659118638 7 
+DEBUG (2): Message received at time 0:6:49.652496322 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5737,7 +5833,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:49.659286484 
+ at time 0:6:49.652664168 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5754,7 +5850,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:6:50.100280737 7 
+DEBUG (3): Message received at time 0:6:50.096710162 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5769,7 +5865,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:50.100448583 
+ at time 0:6:50.096878007 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -5790,7 +5886,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:6:52.300826983 7 
+DEBUG (8): Message received at time 0:6:52.285369880 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5805,7 +5901,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:52.300994829 
+ at time 0:6:52.285537726 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 4. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5822,7 +5918,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:6:52.738128631 7 
+DEBUG (9): Message received at time 0:6:52.728363023 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5837,7 +5933,7 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:6:52.738296477 
+ at time 0:6:52.728530869 
 DEBUG (5): Try to send a PUBLISH message to PAN COORDINATOR at time 0:6:56.206054707 
 DEBUG (5): Packet passed to lower layer successfully!
 DEBUG (5): >>>Pack
@@ -5853,7 +5949,7 @@ DEBUG (5): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:6:56.211746202 7 
+DEBUG (1): Message received at time 0:6:56.212326033 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 5 
@@ -5868,7 +5964,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (5): Packet sent...and ack received
- at time 0:6:56.211914048 
+ at time 0:6:56.212493878 
 DEBUG (1): Check forwarding to node 2 on topic 3
 DEBUG (1): Check forwarding to node 3 on topic 3
 DEBUG (1): Forward to node 3, source 5. QoS: 0
@@ -5886,7 +5982,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (3): Message received at time 0:6:57.092315679 7 
+DEBUG (3): Message received at time 0:6:57.097763041 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5900,7 +5996,7 @@ DEBUG (3): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:57.092483525 
+DEBUG (1): Packet sent...no ack needed at time 0:6:57.097930886 
 DEBUG (1): Check forwarding to node 4 on topic 3
 DEBUG (1): Forward to node 4, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5917,7 +6013,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (4): Message received at time 0:6:57.537155125 7 
+DEBUG (4): Message received at time 0:6:57.533340456 7 
 DEBUG (4): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5931,7 +6027,7 @@ DEBUG (4): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:57.537322971 
+DEBUG (1): Packet sent...no ack needed at time 0:6:57.533508301 
 DEBUG (1): Check forwarding to node 5 on topic 3
 DEBUG (1): Check forwarding to node 6 on topic 3
 DEBUG (1): Forward to node 6, source 5. QoS: 0
@@ -5949,7 +6045,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (6): Message received at time 0:6:58.417053191 7 
+DEBUG (6): Message received at time 0:6:58.412460328 7 
 DEBUG (6): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5963,7 +6059,7 @@ DEBUG (6): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:58.417221036 
+DEBUG (1): Packet sent...no ack needed at time 0:6:58.412628173 
 DEBUG (1): Check forwarding to node 7 on topic 3
 DEBUG (1): Forward to node 7, source 5. QoS: 0
 DEBUG (1): Packet passed to lower layer successfully!
@@ -5980,7 +6076,7 @@ DEBUG (1): >>>Pack
  		 qos: 0 
  
 
-DEBUG (7): Message received at time 0:6:58.849639901 7 
+DEBUG (7): Message received at time 0:6:58.850753791 7 
 DEBUG (7): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -5994,7 +6090,7 @@ DEBUG (7): >>>Pack
  		 QoS: 0 
  
  
-DEBUG (1): Packet sent...no ack needed at time 0:6:58.849807746 
+DEBUG (1): Packet sent...no ack needed at time 0:6:58.850921637 
 DEBUG (1): Check forwarding to node 8 on topic 3
 DEBUG (1): Check forwarding to node 9 on topic 3
 DEBUG (6): Try to send a PUBLISH message to PAN COORDINATOR at time 0:7:3.206054707 
@@ -6012,7 +6108,7 @@ DEBUG (6): >>>Pack
  		 qos: 1 
  
  
-DEBUG (1): Message received at time 0:7:3.216827349 7 
+DEBUG (1): Message received at time 0:7:3.215866051 7 
 DEBUG (1): >>>Pack 
  	 Payload length 7 
 	 Source: 6 
@@ -6027,7 +6123,7 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (6): Packet sent...and ack received
- at time 0:7:3.216995195 
+ at time 0:7:3.216033897 
 DEBUG (1): Check forwarding to node 2 on topic 1
 DEBUG (1): Forward to node 2, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -6044,7 +6140,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (2): Message received at time 0:7:3.659576416 7 
+DEBUG (2): Message received at time 0:7:3.657440192 7 
 DEBUG (2): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -6059,7 +6155,7 @@ DEBUG (2): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:7:3.659744262 
+ at time 0:7:3.657608038 
 DEBUG (1): Check forwarding to node 3 on topic 1
 DEBUG (1): Forward to node 3, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -6076,7 +6172,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (3): Message received at time 0:7:4.102432231 7 
+DEBUG (3): Message received at time 0:7:4.102920504 7 
 DEBUG (3): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -6091,7 +6187,7 @@ DEBUG (3): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:7:4.102600077 
+ at time 0:7:4.103088350 
 DEBUG (1): Check forwarding to node 4 on topic 1
 DEBUG (1): Check forwarding to node 5 on topic 1
 DEBUG (1): Check forwarding to node 6 on topic 1
@@ -6112,7 +6208,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (8): Message received at time 0:7:6.295440679 7 
+DEBUG (8): Message received at time 0:7:6.296554558 7 
 DEBUG (8): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -6127,7 +6223,7 @@ DEBUG (8): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:7:6.295608525 
+ at time 0:7:6.296722404 
 DEBUG (1): Check forwarding to node 9 on topic 1
 DEBUG (1): Forward to node 9, source 6. QoS: 1
 DEBUG (1): Packet passed to lower layer successfully!
@@ -6144,7 +6240,7 @@ DEBUG (1): >>>Pack
  		 qos: 1 
  
 
-DEBUG (9): Message received at time 0:7:6.736755365 7 
+DEBUG (9): Message received at time 0:7:6.739013647 7 
 DEBUG (9): >>>Pack 
  	 Payload length 7 
 	 Source: 1 
@@ -6159,4 +6255,296 @@ DEBUG (9): >>>Pack
  
  
 DEBUG (1): Packet sent...and ack received
- at time 0:7:6.736923211
+ at time 0:7:6.739181493 
+DEBUG (7): Try to send a PUBLISH message to PAN COORDINATOR at time 0:7:10.206054707 
+DEBUG (7): Packet passed to lower layer successfully!
+DEBUG (7): >>>Pack
+ 	 Payload length 7 
+	 Source: 7 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 qos: 1 
+ 
+ 
+DEBUG (1): Message received at time 0:7:10.214416475 7 
+DEBUG (1): >>>Pack 
+ 	 Payload length 7 
+	 Source: 7 
+	 Destination: 1 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 QoS: 1 
+ 
+ 
+DEBUG (7): Packet sent...and ack received
+ at time 0:7:10.214584320 
+DEBUG (1): Check forwarding to node 2 on topic 1
+DEBUG (1): Forward to node 2, source 7. QoS: 1
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 2 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 qos: 1 
+ 
+
+DEBUG (2): Message received at time 0:7:10.663940387 7 
+DEBUG (2): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 2 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 QoS: 1 
+ 
+ 
+DEBUG (1): Packet sent...and ack received
+ at time 0:7:10.664108233 
+DEBUG (1): Check forwarding to node 3 on topic 1
+DEBUG (1): Forward to node 3, source 7. QoS: 1
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 3 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 qos: 1 
+ 
+
+DEBUG (3): Message received at time 0:7:11.099243146 7 
+DEBUG (3): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 3 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 QoS: 1 
+ 
+ 
+DEBUG (1): Packet sent...and ack received
+ at time 0:7:11.099410992 
+DEBUG (1): Check forwarding to node 4 on topic 1
+DEBUG (1): Check forwarding to node 5 on topic 1
+DEBUG (1): Check forwarding to node 6 on topic 1
+DEBUG (1): Check forwarding to node 7 on topic 1
+DEBUG (1): Check forwarding to node 8 on topic 1
+DEBUG (1): Forward to node 8, source 7. QoS: 1
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 8 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 qos: 1 
+ 
+
+DEBUG (8): Message received at time 0:7:13.295089712 7 
+DEBUG (8): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 8 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 QoS: 1 
+ 
+ 
+DEBUG (1): Packet sent...and ack received
+ at time 0:7:13.295257557 
+DEBUG (1): Check forwarding to node 9 on topic 1
+DEBUG (1): Forward to node 9, source 7. QoS: 1
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 9 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 qos: 1 
+ 
+
+DEBUG (9): Message received at time 0:7:13.731399545 7 
+DEBUG (9): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 9 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 1 
+		 value: 20 
+ 		 QoS: 1 
+ 
+ 
+DEBUG (1): Packet sent...and ack received
+ at time 0:7:13.731567390 
+DEBUG (8): Try to send a PUBLISH message to PAN COORDINATOR at time 0:7:17.206054707 
+DEBUG (8): Packet passed to lower layer successfully!
+DEBUG (8): >>>Pack
+ 	 Payload length 7 
+	 Source: 8 
+ 	 Destination: 1 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 2 
+		 value: 150 
+ 		 qos: 1 
+ 
+ 
+DEBUG (1): Message received at time 0:7:17.209030154 7 
+DEBUG (1): >>>Pack 
+ 	 Payload length 7 
+	 Source: 8 
+	 Destination: 1 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 2 
+		 value: 150 
+ 		 QoS: 1 
+ 
+ 
+DEBUG (8): Packet sent...and ack received
+ at time 0:7:17.209197999 
+DEBUG (1): Check forwarding to node 2 on topic 2
+DEBUG (1): Check forwarding to node 3 on topic 2
+DEBUG (1): Check forwarding to node 4 on topic 2
+DEBUG (1): Check forwarding to node 5 on topic 2
+DEBUG (1): Forward to node 5, source 8. QoS: 0
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 5 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 2 
+		 value: 150 
+ 		 qos: 0 
+ 
+
+DEBUG (5): Message received at time 0:7:18.971115107 7 
+DEBUG (5): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 5 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 2 
+		 value: 150 
+ 		 QoS: 0 
+ 
+ 
+DEBUG (1): Packet sent...no ack needed at time 0:7:18.971282952 
+DEBUG (1): Check forwarding to node 6 on topic 2
+DEBUG (1): Forward to node 6, source 8. QoS: 0
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 6 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 2 
+		 value: 150 
+ 		 qos: 0 
+ 
+
+DEBUG (6): Message received at time 0:7:19.410827630 7 
+DEBUG (6): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 6 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 2 
+		 value: 150 
+ 		 QoS: 0 
+ 
+ 
+DEBUG (1): Packet sent...no ack needed at time 0:7:19.410995475 
+DEBUG (1): Check forwarding to node 7 on topic 2
+DEBUG (1): Check forwarding to node 8 on topic 2
+DEBUG (1): Check forwarding to node 9 on topic 2
+DEBUG (1): Forward to node 9, source 8. QoS: 0
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 7 
+	 Source: 1 
+ 	 Destination: 9 
+ 	 AM Type: 6 
+ 		 Payload 
+		 msg_type: 3 
+ 		 msg_id: 6 
+		 topic: 2 
+		 value: 150 
+ 		 qos: 0 
+ 
+
+DEBUG (9): Message received at time 0:7:20.733978236 7 
+DEBUG (9): >>>Pack 
+ 	 Payload length 7 
+	 Source: 1 
+	 Destination: 9 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 3 
+		 msg_id: 6 
+		 topic: 2 
+		 value: 150 
+ 		 QoS: 0 
+ 
+ 
+DEBUG (1): Packet sent...no ack needed at time 0:7:20.734146082 

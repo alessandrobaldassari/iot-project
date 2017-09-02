@@ -363,7 +363,27 @@ implementation{
                         }
                     }
                     else{
-                            dbg_clear("radio_ack", "but ack was not received");
+                        dbg_clear("radio_ack", "but ack was not received\n");
+                        switch(node_status){
+                            case(DISCONNECTED):
+                                post sendConnectionRequest();
+                                dbg("radio_ack","New connection request\n", node_status);
+                                break;
+
+                            case(CONNECTED):
+                                post sendSubscriptionRequest();
+                                dbg("radio_ack","New subscription request", node_status);
+                                break;
+                                
+                            case(SUBSCRIBED):
+                                post publishData();
+                                dbg("radio_ack","New data publication", node_status);
+                                break;
+
+                            default:
+                                break;
+                        }
+                            
                     }
                 }
                 else{
